@@ -2,6 +2,14 @@
     {
         "postId": 0,
         "postUploaderId": 0,
+        "uploadedAt": {
+            "dd": 19,
+            "mm": 05,
+            "yyyy": 2023,
+            "hh": 08,
+            "mm": 48,
+            "ss": 00
+        },
         "views": 0,
         "likes": 0
     }
