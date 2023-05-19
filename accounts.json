@@ -1,9 +1,8 @@
 [
     {
         "accountId": 0,
-        "accountUsername": "",
-        "accountRole": "",
-        "accountBio": "",
-        "accountProfilePictureURL": ""
+        "accountUsername": "Rage",
+        "accountRole": "Lead Engineer",
+        "accountBio": "Hi, this is my bio"
     }
 ]
