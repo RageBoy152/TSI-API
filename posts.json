@@ -12,5 +12,19 @@
         },
         "views": 0,
         "likes": 0
+    },
+    {
+        "postId": 1,
+        "postUploaderId": 1,
+        "uploadedAt": {
+            "dd": 21,
+            "mmonth": 5,
+            "yyyy": 2023,
+            "hh": 17,
+            "mmin": 19,
+            "ss": 0
+        },
+        "views": 0,
+        "likes": 0
     }
 ]
