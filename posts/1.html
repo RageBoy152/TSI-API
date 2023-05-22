@@ -1,33 +1,43 @@
 <div id="section-1" class="section-c">
-    <h1>BLOG POST TITLE</h1>
-</div>
-<div id="section-2" class="section-c mt-5">
-    <hr>
-    <div class="blog-post-container ms-2 mt-5">
-        <h2>BLOG POST SUBTITLE</h2>
-        <div class="blog-post-content-container ms-2">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim tincidunt mattis. Nullam tempor enim nisl, eget consectetur nibh efficitur sit amet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In iaculis mollis auctor. Praesent magna sem, maximus non tincidunt eu, pellentesque sed diam. Nunc volutpat nibh a mauris placerat, a placerat tellus pulvinar. Nullam lobortis tempus dolor, vel tincidunt justo ultrices vitae. Ut eget ante at erat suscipit ornare in quis mi. Integer sit amet placerat dolor, ac semper arcu. Sed nisl arcu, sagittis non velit at, fringilla vehicula ligula. Pellentesque mattis ligula porta fermentum porta. Morbi sed libero accumsan, luctus ligula nec, maximus eros. Fusce laoreet odio vel gravida iaculis.
-            </p>
-            <p>
-                Sed orci dolor, porta non magna quis, blandit molestie sapien. Donec placerat ante augue, sit amet rutrum ex interdum et. Morbi bibendum ut dui id porta. In quam ipsum, accumsan nec feugiat at, faucibus a est. Proin at vulputate leo, sed sollicitudin erat. Sed dignissim sollicitudin euismod. Sed ut viverra ipsum, et aliquet ligula. Vivamus odio ligula, tristique porttitor enim a, semper condimentum nulla. Aliquam iaculis malesuada finibus. Phasellus convallis augue eu elit molestie, nec mattis arcu mattis. Suspendisse eu lorem porta, consequat nisi sit amet, dignissim velit. Nullam imperdiet nulla consectetur porta molestie. Sed luctus pretium mi vel gravida.
-            </p>
-            <p>
-                Quisque ut quam ultricies, consequat ex vitae, lacinia nunc. In quis erat nulla. Cras et ipsum nec sapien volutpat bibendum feugiat vel justo. Integer nunc nibh, eleifend vitae purus sed, malesuada tincidunt dui. Pellentesque tristique egestas faucibus. Quisque congue, eros at congue posuere, dui mi sagittis mi, sit amet venenatis mi augue et augue. Fusce sit amet lacus quam. Curabitur eget sagittis diam, nec egestas justo. Donec quis magna commodo, congue magna at, aliquam nulla. Nam sodales ante non porta lobortis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque iaculis egestas ornare. Sed nibh metus, tristique sit amet mattis a, cursus eu mauris.
-            </p>
-            <p>
-                Donec nec posuere arcu. Nulla eros mauris, facilisis nec diam a, elementum fringilla orci. Nunc suscipit luctus leo, ut congue ex ornare et. Donec accumsan orci neque, luctus imperdiet enim pretium at. Donec a est non nisi pulvinar euismod non sed est. Vivamus mattis vitae est scelerisque malesuada. Fusce fringilla mauris eget ante auctor porta.
-            </p>
+            <h1>BLOG POST TITLE</h1>
         </div>
-        <h3>BLOG CONTENT SUBTITLE</h3>
-        <div class="blog-post-content-container ms-2">
-            <p>
-                Donec nec posuere arcu. Nulla eros mauris, facilisis nec diam a, elementum fringilla orci. Nunc suscipit luctus leo, ut congue ex ornare et. Donec accumsan orci neque, luctus imperdiet enim pretium at. Donec a est non nisi pulvinar euismod non sed est. Vivamus mattis vitae est scelerisque malesuada. Fusce fringilla mauris eget ante auctor porta.
-            </p>
-            <p>
-                Sed orci dolor, porta non magna quis, blandit molestie sapien. Donec placerat ante augue, sit amet rutrum ex interdum et. Morbi bibendum ut dui id porta. In quam ipsum, accumsan nec feugiat at, faucibus a est. Proin at vulputate leo, sed sollicitudin erat. Sed dignissim sollicitudin euismod. Sed ut viverra ipsum, et aliquet ligula. Vivamus odio ligula, tristique porttitor enim a, semper condimentum nulla. Aliquam iaculis malesuada finibus. Phasellus convallis augue eu elit molestie, nec mattis arcu mattis. Suspendisse eu lorem porta, consequat nisi sit amet, dignissim velit. Nullam imperdiet nulla consectetur porta molestie. Sed luctus pretium mi vel gravida.
-            </p>
+        <div id="section-2" class="section-c mt-4">
+            <div class="header-container d-flex">
+                <p id="uploaded-time">Uploaded ago</p>
+                <div class="stats-container d-flex align-items-center mt-3">
+                    <p id="views"><i class="bi bi-eye me-2"></i> null</p>
+                    <p class="ms-4" id="likes"><a onclick="likePost()"><i class="bi bi-hand-thumbs-up me-2"></i></a> null</p>
+                </div>
+                <div class="uploader-container ms-auto mt-3">
+                    <p id="uploader-info">Written by null, null <img src="" alt=""></p>
+                </div>
+            </div>
+            <hr>
+            <div class="blog-post-container ms-2 mt-5">
+                <h2>BLOG POST SUBTITLE</h2>
+                <div class="blog-post-content-container ms-2">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim tincidunt mattis. Nullam tempor enim nisl, eget consectetur nibh efficitur sit amet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In iaculis mollis auctor. Praesent magna sem, maximus non tincidunt eu, pellentesque sed diam. Nunc volutpat nibh a mauris placerat, a placerat tellus pulvinar. Nullam lobortis tempus dolor, vel tincidunt justo ultrices vitae. Ut eget ante at erat suscipit ornare in quis mi. Integer sit amet placerat dolor, ac semper arcu. Sed nisl arcu, sagittis non velit at, fringilla vehicula ligula. Pellentesque mattis ligula porta fermentum porta. Morbi sed libero accumsan, luctus ligula nec, maximus eros. Fusce laoreet odio vel gravida iaculis.
+                    </p>
+                    <p>
+                        Sed orci dolor, porta non magna quis, blandit molestie sapien. Donec placerat ante augue, sit amet rutrum ex interdum et. Morbi bibendum ut dui id porta. In quam ipsum, accumsan nec feugiat at, faucibus a est. Proin at vulputate leo, sed sollicitudin erat. Sed dignissim sollicitudin euismod. Sed ut viverra ipsum, et aliquet ligula. Vivamus odio ligula, tristique porttitor enim a, semper condimentum nulla. Aliquam iaculis malesuada finibus. Phasellus convallis augue eu elit molestie, nec mattis arcu mattis. Suspendisse eu lorem porta, consequat nisi sit amet, dignissim velit. Nullam imperdiet nulla consectetur porta molestie. Sed luctus pretium mi vel gravida.
+                    </p>
+                    <p>
+                        Quisque ut quam ultricies, consequat ex vitae, lacinia nunc. In quis erat nulla. Cras et ipsum nec sapien volutpat bibendum feugiat vel justo. Integer nunc nibh, eleifend vitae purus sed, malesuada tincidunt dui. Pellentesque tristique egestas faucibus. Quisque congue, eros at congue posuere, dui mi sagittis mi, sit amet venenatis mi augue et augue. Fusce sit amet lacus quam. Curabitur eget sagittis diam, nec egestas justo. Donec quis magna commodo, congue magna at, aliquam nulla. Nam sodales ante non porta lobortis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque iaculis egestas ornare. Sed nibh metus, tristique sit amet mattis a, cursus eu mauris.
+                    </p>
+                    <p>
+                        Donec nec posuere arcu. Nulla eros mauris, facilisis nec diam a, elementum fringilla orci. Nunc suscipit luctus leo, ut congue ex ornare et. Donec accumsan orci neque, luctus imperdiet enim pretium at. Donec a est non nisi pulvinar euismod non sed est. Vivamus mattis vitae est scelerisque malesuada. Fusce fringilla mauris eget ante auctor porta.
+                    </p>
+                </div>
+                <h3>BLOG CONTENT SUBTITLE</h3>
+                <div class="blog-post-content-container ms-2">
+                    <p>
+                        Donec nec posuere arcu. Nulla eros mauris, facilisis nec diam a, elementum fringilla orci. Nunc suscipit luctus leo, ut congue ex ornare et. Donec accumsan orci neque, luctus imperdiet enim pretium at. Donec a est non nisi pulvinar euismod non sed est. Vivamus mattis vitae est scelerisque malesuada. Fusce fringilla mauris eget ante auctor porta.
+                    </p>
+                    <p>
+                        Sed orci dolor, porta non magna quis, blandit molestie sapien. Donec placerat ante augue, sit amet rutrum ex interdum et. Morbi bibendum ut dui id porta. In quam ipsum, accumsan nec feugiat at, faucibus a est. Proin at vulputate leo, sed sollicitudin erat. Sed dignissim sollicitudin euismod. Sed ut viverra ipsum, et aliquet ligula. Vivamus odio ligula, tristique porttitor enim a, semper condimentum nulla. Aliquam iaculis malesuada finibus. Phasellus convallis augue eu elit molestie, nec mattis arcu mattis. Suspendisse eu lorem porta, consequat nisi sit amet, dignissim velit. Nullam imperdiet nulla consectetur porta molestie. Sed luctus pretium mi vel gravida.
+                    </p>
+                </div>
+                <p class="small written-by-text" id="uploader-info-bottom">Written by null, null</p>
+            </div>
         </div>
-        <p class="small written-by-text">Written by Rage, Lead Engineer</p>
-    </div>
-</div>
